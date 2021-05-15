@@ -1,0 +1,67 @@
+
+body{
+    padding: 2em;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: tomato;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: lightgreen;
+    align-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+article {
+    background-color: aqua  ;
+    margin: 10px;
+    padding: 18px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sideBarLeftItem {
+    background-color: gold;
+}
+
+.inner-container {
+    text-align: left;
+    background-color: deepskyblue;
+}
+
+.sideBarRightItem {
+    background-color: hotpink;
+}
+
+.sideBarItem {
+    flex: 1 0 0;
+    border: 0 solid green;
+}
+
+.inner-container{
+    flex: 3 0px;
+    order: 2;
+}
+
+.sideBarLeftItem {
+    order: 1;
+}
+
+.sideBarRightItem {
+    order: 3;
+}
+
